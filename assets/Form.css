@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+body {
+    background-image: url('./design-space-paper-textured-background.jpg');
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    background: white;
+    max-width: 800px;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px #68838B, 1px 1px 25px #94A9AF, 0 0 5px #C2CED2;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header img {
+    height: auto;
+    max-width: 400px;
+}
+
+.form-description {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.form-cont {
+    border-radius: 15px;
+    background: linear-gradient(360deg, #68838B, #94A9AF, #C2CED2);
+    max-width: 800px;
+}
+
+.form-title {
+    font-weight: bolder;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    color: #ADCBDB;
+    text-shadow: 0 4px 10px rgba(0, 0, 0, .8);
+}
+
+.form-text {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+}
+
+.form {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-tab {
+    padding: 30px;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    text-align: left
+}
+
+
+.form-question {
+    font-weight: bold;
+    font-size: large;
+    padding-bottom: 20px;
+}
+
+.line-two {
+    padding-bottom: 20px;
+    margin-left: 20px;
+}
+
+input[type='text'] {
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border: solid #68838B;
+    border-radius: 5px;
+}
+
+input[type='email'] {
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border: solid #68838B;
+    border-radius: 5px;
+}
+
+input[type='tel'] {
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border: solid #68838B;
+    border-radius: 5px;
+}
+
+input[type='radio'] {
+    display: inline;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+input[type='checkbox'] {
+    display: inline;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: inline;
+    margin-left: 5px;
+}
